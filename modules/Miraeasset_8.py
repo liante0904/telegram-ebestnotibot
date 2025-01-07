@@ -74,7 +74,8 @@ def Miraeasset_checkNewArticle():
                 "DOWNLOAD_URL": DOWNLOAD_URL,
                 "TELEGRAM_URL": DOWNLOAD_URL,
                 "ARTICLE_TITLE": LIST_ARTICLE_TITLE,
-                "SAVE_TIME": datetime.now().isoformat()
+                "SAVE_TIME": datetime.now().isoformat(),
+                "KEY": DOWNLOAD_URL
             })
             print(json_data_list)
 
